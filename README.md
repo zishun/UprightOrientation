@@ -17,7 +17,7 @@
 
 ### Usage
 
-1. Build Caffe ([ND convolution](https://github.com/BVLC/caffe/pull/2049) is requested) and its Matlab interface MatCaffe. Please refer to the official instructions [1](http://caffe.berkeleyvision.org/installation.html) and [2](http://caffe.berkeleyvision.org/tutorial/interfaces.html).
+1. Build Caffe ([ND convolution](https://github.com/BVLC/caffe/pull/2049) is required) and its Matlab interface MatCaffe. Please refer to the official instructions [1](http://caffe.berkeleyvision.org/installation.html) and [2](http://caffe.berkeleyvision.org/tutorial/interfaces.html).
 2. Compile the c-coded voxelization function in Matlab with ```mex ./voxelization/polygon2voxel_double.c```.
 3. Edit the parameters in ```main.m``` and run it in Matlab. The results like the following would be printed:
 
