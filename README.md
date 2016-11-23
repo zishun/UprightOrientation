@@ -13,7 +13,7 @@
 1. The root folder contains a trained model and interfaces for testing. The regression network for four-legged/wheeled group in the paper is provided.
 2. The folder "data" contains several mesh files sampled from our test set, whose upright orientations are all positive _z_-axis.
 3. The folder "util" is for utilities such as mesh loading and random rotation generation.
-4. The folder "voxelization" is a toolbox to convert mesh models to their volume representations, from
+4. The folder "voxelization" is a toolbox to convert mesh models to their volume representations, from 
 >J. Xiao, 2013. Princeton Vision and Robotics Toolkit. Available from: <http://vision.princeton.edu/code.html>.
 
 ### Usage
