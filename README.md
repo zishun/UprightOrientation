@@ -11,15 +11,14 @@
 ### Code
 
 1. The root folder contains a trained model and interfaces for testing. The regression network for four-legged/wheeled group in the paper is provided.
-2. The folder "data" contains several mesh files sampled from our test set, whose upright orientations are all positive _z_-axis.
-3. The folder "util" is for utilities such as mesh loading and random rotation generation.
-4. The folder "voxelization" is a toolbox to convert mesh models to their volume representations, from 
->J. Xiao, 2013. Princeton Vision and Robotics Toolkit. Available from: <http://vision.princeton.edu/code.html>.
+- The folder "data" contains several mesh files sampled from our test set, whose upright orientations are all positive _z_-axis.
+- The folder "util" is for utilities such as mesh loading and random rotation generation.
+- The folder "voxelization" is a toolbox to convert mesh models to their volume representations, from Jianxiong Xiao's [Princeton Vision and Robotics Toolkit]. 
 
 ### Usage
 
 1. Build Caffe ([ND convolution](https://github.com/BVLC/caffe/pull/2049) is required) and its Matlab interface MatCaffe. Please refer to the official instructions [1](http://caffe.berkeleyvision.org/installation.html) and [2](http://caffe.berkeleyvision.org/tutorial/interfaces.html).
-2. Compile the c-coded voxelization function in Matlab with ```mex ./voxelization/polygon2voxel_double.c```.
+2. Compile the C-coded voxelization function in Matlab with ```mex ./voxelization/polygon2voxel_double.c```.
 3. Edit the parameters in ```main.m``` and run it in Matlab. The results like the following would be printed:
 
         The prediction error is 2.7 degrees
@@ -27,4 +26,4 @@
 ## Thank you!
 
 [Upright Orientation of 3D Shapes with Convolutional Networks]: http://dx.doi.org/10.1016/j.gmod.2016.03.001
-
+[Princeton Vision and Robotics Toolkit]: http://vision.princeton.edu/code.html
