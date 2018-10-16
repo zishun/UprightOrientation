@@ -10,7 +10,7 @@
 
 ### Code
 
-1. The root folder contains a trained model and interfaces for testing. The regression network for four-legged/wheeled group in the paper is provided.
+- The root folder contains a trained model and interfaces for testing. The regression network for four-legged/wheeled group in the paper is provided.
 - The folder "data" contains several mesh files sampled from our test set, whose upright orientations are all positive _z_-axis.
 - The folder "util" is for utilities such as mesh loading and random rotation generation.
 - The folder "voxelization" is a toolbox to convert mesh models to their volume representations, from Jianxiong Xiao's [Princeton Vision and Robotics Toolkit]. 
